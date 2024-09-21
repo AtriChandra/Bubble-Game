@@ -1,95 +1,164 @@
 *{
-   margin:0%;
-   padding:0%;
-   box-sizing:border-box;
-   font-family: 'Gill Sans';
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Gill Sans';
 }
 
-html,body{
-   height: 100%;
-   width: 100%;
+html, body{
+  height: 100%;
+  width: 100%;
 }
 
 #main{
-  height: 100%;
-  width: 100%;
-  background-color: #3DC2EC;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ height: 100%;
+ width: 100%;
+ background-color: #3DC2EC;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 
 #panel{
-  height: 80%;
-  width: 80%;
-  background-color: white;
-  border-radius: 10px;
-  overflow: hidden;
+ height: 80%;
+ width: 80%;
+ background-color: white;
+ border-radius: 10px;
+ overflow: hidden;
+ max-width: 1200px; 
 }
 
 #ptop{
-  padding: 0px 10%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: #fff;
-  width: 100%;
-  height: 100px;
-  background-color: #402E7A;
+ padding: 0px 10%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ color: #fff;
+ width: 100%;
+ height: 100px;
+ background-color: #402E7A;
 }
 
 #pbtm{
-  width: 100%;
-  height: calc(100% - 100px);
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
+ width: 100%;
+ height: calc(100% - 100px);
+ padding: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 10px;
+ box-sizing: border-box; 
+ overflow-y: auto; 
 }
 
 .elem{
-  display: flex;
-  align-items: center;
-  gap: 20px;
+ display: flex;
+ align-items: center;
+ gap: 20px;
 }
 
 .box{
-  color:#4B70F5;
-  font-weight: 600;
-  font-size: 25px;
-  padding: 10px 20px;
-  background-color:#fff;
-  border-radius: 5px;
+ color:#4B70F5;
+ font-weight: 600;
+ font-size: 25px;
+ padding: 10px 20px;
+ background-color:#fff;
+ border-radius: 5px;
+ margin: 10px 0; 
 }
 
 .bubble{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  background-color: #4B70F5;
-  color: white;
-  font-weight: 500;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 50px;
+ width: 50px;
+ border-radius: 50%;
+ background-color: #4B70F5;
+ color: white;
+ font-weight: 500;
 }
 
 .bubble:hover{
-  background-color: #3DC2EC;
-  cursor: pointer;
+ background-color: #3DC2EC;
+ cursor: pointer;
 }
 
 #startbtn{
-  height: 10vh;
-  width: 15vw;
-  border-radius: 10px;
-  background-color: #4C3BCF;
-  color: #fff;
+ height: 10vh;
+ width: 15vw;
+ border-radius: 10px;
+ background-color: #4C3BCF;
+ color: #fff;
 }
 
 #startbtn:hover{
-  background-color: #402E7A;
-  cursor: pointer;
+ background-color: #402E7A;
+ cursor: pointer;
+}
+
+@media (max-width: 768px) {
+ #panel {
+   width: 90%;
+   height: 85%;
+ }
+
+ #ptop {
+   flex-direction: column;
+   height: auto;
+   padding: 10px;
+ }
+
+ .elem {
+   justify-content: space-around;
+   width: 100%;
+ }
+
+ .box {
+   font-size: 20px;
+   padding: 8px 16px;
+   margin: 10px 0; 
+ }
+
+ #pbtm {
+   padding: 10px; 
+ }
+
+ .bubble {
+   height: 40px;
+   width: 40px;
+ }
+
+ #startbtn {
+   height: 8vh;
+   width: 50%;
+ }
+}
+
+@media (max-width: 480px) {
+ #panel {
+   width: 95%;
+   height: 90%;
+ }
+
+ .box {
+   font-size: 18px;
+   padding: 5px 10px;
+   margin: 10px 0;
+ }
+
+ .bubble {
+   height: 35px;
+   width: 35px;
+ }
+
+ #pbtm {
+   padding: 5px; 
+ }
+
+ #startbtn {
+   height: 7vh;
+   width: 60%;
+ }
 }
