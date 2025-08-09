@@ -65,13 +65,4 @@ Navigate to http://localhost:5173 to start playing!
 ```
 
 
-## 🎮 How to Play
-
-1. **Start the Game**: Click the "Start Game" button
-2. **Read the Rules**: A modal will explain the game mechanics
-3. **Watch the Target**: Look at the number in the "Hit" box
-4. **Click Matching Bubbles**: Click on bubbles that match the target number
-5. **Score Points**: Each correct hit gives you 10 points
-6. **Beat the Clock**: Try to score as much as possible in 60 seconds!
-7. **Play Again**: Use the "Play Again" button to restart
 
