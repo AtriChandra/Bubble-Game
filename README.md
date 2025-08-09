@@ -1,12 +1,77 @@
-# React + Vite
+# 🫧 Bubble Game - React Edition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Bubble Game! This is a modern, interactive game built with React. Test your reflexes and speed as you click on the correct bubbles within 60 seconds to score points. Each correct hit earns you 10 points - how high can you score?
 
-Currently, two official plugins are available:
+## 🎯 Game Rules
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **⏰ Time Limit**: You have 60 seconds to play
+- **🎯 Target System**: Click on bubbles that match the number shown in the "Hit" box
+- **🔄 Dynamic Gameplay**: Bubbles regenerate with new positions after each correct hit
+- **💯 Scoring**: Each correct hit earns you 10 points
+- **🏆 Challenge**: Collect as many points as possible within the time limit!
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Technologies Used
+
+### **Frontend Framework**
+- **React 18** - Modern component-based architecture
+- **React Hooks** - useState, useEffect, useRef for state management
+
+### **Build Tool**
+- **Vite** - Fast development server and optimized builds
+- **ES Modules** - Modern JavaScript module system
+
+### **Styling**
+- **CSS3** - Advanced styling with gradients, animations, and flexbox
+- **CSS-in-JS** - Scoped styling within React components
+- **Responsive Design** - Media queries for multiple breakpoints
+
+
+
+
+## 🚀 Getting Started
+
+### **Prerequisites**
+```bash
+Node.js (version 16 or higher)
+npm or yarn package manager
+```
+
+### **Installation**
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/AtriChandra/Bubble-Game.git
+cd Bubble-Game
+```
+
+2. **Install dependencies**
+```bash
+npm install
+# or
+yarn install
+```
+
+3. **Start the development server**
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+4. **Open your browser**
+```
+Navigate to http://localhost:5173 to start playing!
+```
+
+
+## 🎮 How to Play
+
+1. **Start the Game**: Click the "Start Game" button
+2. **Read the Rules**: A modal will explain the game mechanics
+3. **Watch the Target**: Look at the number in the "Hit" box
+4. **Click Matching Bubbles**: Click on bubbles that match the target number
+5. **Score Points**: Each correct hit gives you 10 points
+6. **Beat the Clock**: Try to score as much as possible in 60 seconds!
+7. **Play Again**: Use the "Play Again" button to restart
+
