@@ -2,7 +2,7 @@
 
 Welcome to the Bubble Game! This is a modern, interactive game built with React. Test your reflexes and speed as you click on the correct bubbles within 60 seconds to score points. Each correct hit earns you 10 points - how high can you score?
 
-## 🎯 Game Rules
+## 🎯 Game Rules 
 
 - **⏰ Time Limit**: You have 60 seconds to play
 - **🎯 Target System**: Click on bubbles that match the number shown in the "Hit" box
