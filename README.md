@@ -1,4 +1,4 @@
-# 🫧 Bubble Game - React Edition
+# 🫧 Bubble Game
 
 Welcome to the Bubble Game! This is a modern, interactive game built with React. Test your reflexes and speed as you click on the correct bubbles within 60 seconds to score points. Each correct hit earns you 10 points - how high can you score?
 
